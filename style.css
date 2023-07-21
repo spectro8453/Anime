@@ -1,0 +1,213 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  font-family: 'Belanosima', sans-serif;
+}
+body{
+  background-image: url(./images/Home2.jpg);
+}
+.container{
+    width: 100%;
+    height: 80px;
+    background-image: url(./images/Home2.jpg);
+}
+.navbar{
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  text-align: center;
+}
+h1{
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-right: 1200px;
+  margin-top: 10px;
+}
+h1:hover{
+  color: brown;
+}
+.navbar ul{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.navbar li{
+  margin: 30px;
+  list-style: none;
+}
+.navbar a{
+  color: white;
+  text-decoration: none;
+}
+a:hover{
+  color: red;
+}
+.home{
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  /* border: 2px solid; */
+  background-image: url(./images/Home2.jpg);
+}
+#image1{
+  width: 350px;
+  height: 450px;
+  display: flex;
+  margin: 10px 10px;
+  border-radius: 5px;
+}
+#manga_list{
+  color: black;
+  background-color: brown;
+  margin-left: 10px;
+  border-radius: 5rem;
+  text-align: center;
+}
+#list{
+  color: darkorange;
+}
+#list:hover{
+  color: whitesmoke;
+}
+#list p{
+  color: whitesmoke;
+}
+h2{
+  text-align: center;
+}
+p{
+  text-align: center;
+  color: black;
+}
+#about{
+  color: whitesmoke;
+}
+.about-manga{
+  text-align: center;
+  margin: 3% 0% 6% 0%;
+}
+h3{
+  margin-top: 10px;
+  color: darkcyan;
+  font-size: 19px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+h3:hover{
+  color: chartreuse;
+}
+.about-details{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+.img-about img{
+ width: 70%;
+ height: 350px;
+ margin-left: 25%;
+ border-radius: 1rem;
+}
+.details-manga{
+  font-size: 16px;
+  margin-top: 30%;
+  margin-left: -20px;
+  margin-right: 10%;
+  text-align: justify;
+  justify-content: center;
+}
+#p{
+  border: 2px solid white;
+  border-radius: 1rem;
+  padding-top: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  padding-right: 20px;
+}
+.history{
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  gap: 3rem;
+  margin-top: 2rem;
+}
+#contact{
+  color: white;
+}
+
+.about-head{
+  text-align: center;
+}
+#contact1{
+  color: rgb(255, 255, 255)55, 255, 255);
+  margin-left: 900px;
+  justify-content: space-around;
+  margin-top: 30px;
+}
+.icon-set{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 3%;
+}
+.icon{
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid; */
+  border-radius: 50%;
+  display: flex; 
+   justify-content: center;
+  align-items: center;
+  margin: 0px 10px; 
+}
+.icon i{
+  font-size: 30px;
+  color: black;
+}
+.icon:hover {
+  background-image: linear-gradient(to bottom right,yellow,orange,rgb(236, 0, 0));
+}
+.icon:hover i{
+  color: aliceblue;
+  animation: shake 0.75s;
+}
+
+@keyframes shake{
+  10%{
+      transform: rotate(15deg);
+  }
+  20%{
+      transform: rotate(-15deg);
+  }
+  30%{
+      transform: rotate(15deg);
+  }
+  40%{
+      transform: rotate(-15deg);
+  }
+}
+footer{
+  margin: 3rem 0px;
+  color: white;
+}
+.up-Arrow{
+  float: right;
+  background-image: linear-gradient(to bottom right, yellow,orange,rgb(244,240,240));
+  margin: 0px 20px 30px 0px;
+  width: 50px;
+  height: 50px;
+  /* border: 2px solid; */
+  border-radius: 50%;
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+}
+.up-Arrow:hover i{
+  color: white;
+}
+html{
+  scroll-behavior: smooth;
+}
+
